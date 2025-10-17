@@ -1,6 +1,6 @@
 <!-- PROJECT LOGO -->
 <p align="center">
-  <img width="960" height="440" alt="dashboard" src="https://github.com/user-attachments/assets/7984bf90-8779-436d-8bc9-e6174775eec3" /> alt="Logo Toko Rahma" width="120">
+  <img width="960" height="440" alt="dashboard" src="https://github.com/user-attachments/assets/7984bf90-8779-436d-8bc9-e6174775eec3" />
 </p>
 
 <h2 align="center">🛍️ Toko Rahma – Aplikasi Penjualan Barang</h2>
