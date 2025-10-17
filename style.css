@@ -1,0 +1,98 @@
+/* 🌐 Efek hover untuk link navbar */
+.navbar .nav-link {
+  color: black;
+  font-weight: 400;
+  transition: all 0.3s ease;
+  position: relative;
+}
+
+/* Saat diarahkan (hover) */
+.navbar .nav-link:hover {
+  color: #0B5ED7; /* warna teks berubah jadi kuning */
+}
+
+/* Garis bawah animasi */
+.navbar .nav-link::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  background: #0B5ED7;
+  left: 50%;
+  bottom: 0;
+  transition: all 0.3s ease;
+  transform: translateX(-50%);
+}
+
+/* Saat di-hover garis bawah muncul */
+.navbar .nav-link:hover::after {
+  width: 50%;
+}
+
+
+.navbar .nav-link.active {
+  color: #0B5ED7;
+  font-weight: 600;
+}
+
+.navbar .nav-link.active::after {
+  content: '';
+  position: absolute;
+  width: 50%;
+  height: 2px;
+  background: #0B5ED7;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+}
+
+
+
+/* Gaya untuk ikon dalam lingkaran */
+.icon-circle {
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+  flex-shrink: 0;
+}
+
+/* Latar pastel per ikon */
+.bg-primary-light {
+  background-color: rgba(13, 110, 253, 0.1);
+}
+.bg-success-light {
+  background-color: rgba(25, 135, 84, 0.1);
+}
+.bg-warning-light {
+  background-color: rgba(255, 193, 7, 0.15);
+}
+
+
+/* Card smooth effect */
+.card {
+  border-radius: 12px;
+  transition: all 0.2s ease-in-out;
+}
+.card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+}
+h5, h6 {
+  font-weight: 600;
+}
+small {
+  font-size: 0.9rem;
+}
+
+
+/* Gaya cetak Laporan */
+@media print {
+  nav, .btn, form, .modal, .no-print { display: none !important; }
+  .table { border: 1px solid #000; }
+  .table th, .table td { border: 1px solid #000 !important; }
+  body { background: #fff; }
+}
