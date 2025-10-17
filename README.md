@@ -32,7 +32,6 @@ Cocok untuk digunakan sebagai **latihan CRUD dan implementasi manajemen basis da
 
 ### 📦 Manajemen Barang
 - Tambah, ubah, hapus data barang.
-- ID barang otomatis (`B001`, `B002`, dst.) dan menyesuaikan setelah data dihapus.
 - Validasi input dengan notifikasi pop-up Bootstrap.
 
 ### 👥 Manajemen Pembeli
