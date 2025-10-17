@@ -1,8 +1,3 @@
-<!-- PROJECT LOGO -->
-<p align="center">
-  <img src="image/logo.png" alt="Logo Toko Rahma" width="120">
-</p>
-
 <h2 align="center">🛍️ Toko Rahma – Aplikasi Penjualan Barang</h2>
 
 <p align="center">
